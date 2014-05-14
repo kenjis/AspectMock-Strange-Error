@@ -10,6 +10,7 @@ The error ocurrs:
 
 The error does not ocurrs:
 * OS X 10.8 + MAMP 3.0.5
+* Ubuntu 12.04(64bit) + PHP 5.4.21-1+debphp.org~precise+1
 
 ## How to reproduce
 
