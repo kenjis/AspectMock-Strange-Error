@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "c4ef3b564b8282a4a7f7bef985897565",
+    "hash": "bd45ff56642bb8d1b0e533540630e605",
     "packages": [
         {
             "name": "fuelphp/upload",
@@ -945,7 +945,7 @@
 
     ],
     "platform": {
-        "php": ">=5.3.3"
+        "php": ">=5.4"
     },
     "platform-dev": [
 

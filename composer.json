@@ -16,7 +16,7 @@
         "forum": "http://fuelphp.com/forums"
     },
     "require": {
-        "php": ">=5.3.3",
+        "php": ">=5.4",
         "monolog/monolog": "1.5.*",
         "michelf/php-markdown": "1.4.0",
     	"fuelphp/upload": "2.0.1"
