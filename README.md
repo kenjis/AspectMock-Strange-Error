@@ -11,6 +11,7 @@ The error occurs:
 The error does not occur:
 * OS X 10.8 + MAMP 3.0.5
 * Ubuntu 12.04(64bit) + PHP 5.4.21-1+debphp.org~precise+1
+* Ubuntu 12.04(32bit) + XAMPP 1.8.3-2 (PHP 5.5.6)
 
 ## How to reproduce
 
