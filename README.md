@@ -3,7 +3,7 @@
 I got strange error below:
 > PHP Fatal error:  Uncaught exception 'Exception' with message 'File "COREPATH/classes/error.php" does not contain class "Fuel\Core\Error"' in /mnt/fuelphp/fuel/core/classes/autoloader.php:395
 
-It is very strange because COREPATH/classes/error.php contains class "Fuel\Core\Error".
+It is very strange, because COREPATH/classes/error.php contains class "Fuel\Core\Error".
 
 ## How to reproduce
 
@@ -16,9 +16,12 @@ $ fuel/vendor/bin/phpunit -c fuel/app/phpunit.xml --group=AspectMock --debug
 
 ## How to reproduce with Vagrant 
 
+Requires Vagrant and VirtualBox.
+
 ~~~
 $ git clone --recursive https://github.com/kenjis/AspectMock-Strange-Error.git
 $ cd AspectMock-Strange-Error
+$ php composer.phar install
 $ git clone --recursive https://github.com/kenjis/vagrant-fuelphp-centos6.git
 $ cd vagrant-fuelphp-centos6
 $ vagrant up
