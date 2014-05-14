@@ -5,10 +5,10 @@ I got a strange error below:
 
 It is very strange, because COREPATH/classes/error.php (=fuel/core/classes/error.php) contains class "Fuel\Core\Error".
 
-The error ocurrs:
+The error occurs:
 * CentOS 6.5(64bit) + PHP 5.5(ius)
 
-The error does not ocurrs:
+The error does not occur:
 * OS X 10.8 + MAMP 3.0.5
 * Ubuntu 12.04(64bit) + PHP 5.4.21-1+debphp.org~precise+1
 
