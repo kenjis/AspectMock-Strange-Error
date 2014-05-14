@@ -1,9 +1,11 @@
 # AspectMock strange error
 
-I got strange error below:
+I got a strange error below:
 > PHP Fatal error:  Uncaught exception 'Exception' with message 'File "COREPATH/classes/error.php" does not contain class "Fuel\Core\Error"' in /mnt/fuelphp/fuel/core/classes/autoloader.php:395
 
-It is very strange, because COREPATH/classes/error.php contains class "Fuel\Core\Error".
+It is very strange, because COREPATH/classes/error.php (=fuel/core/classes/error.php) contains class "Fuel\Core\Error".
+
+The error ocurres: CentOS 6.5 (64bit)
 
 ## How to reproduce
 
